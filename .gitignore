@@ -1,7 +1,11 @@
 # Files not to be included in Deliverable
 Resources/
-Data/departments.csv*
-dept_emp.*
+departments.csv
+dept_emp.csv
+dept_manager.csv
+employees.csv
+salaries.csv
+titles.csv
 
 
 # Byte-compiled / optimized / DLL files
