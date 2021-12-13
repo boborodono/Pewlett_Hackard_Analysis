@@ -1,30 +1,35 @@
 # Pewlett_Hackard_Analysis
 ## Overview of Analysis
-### The purpose of this project is to help Bobby in HR plan for future vacancies due to impending retirements.
+### - The purpose of this project is to help Bobby in HR plan for future vacancies due to impending retirements.
+
+<br/>
 
 ## Results
+- There are currently 90,398 roles eligible for retirement in the coming year. The majority of which are either Senior Engineers (32.5%) or Senior Staff (31.3%).<br/><br/>
+![Impending Retirement](Data/Pictures/retiring_titles.png)
+
+<br/>
+
+- This table shows the total number of workers currently employed at Pewlett Hackard organized by department. <br/><br/>
+![Current Employees by Department](Data/Pictures/current_employees_by_dept.png)
+<br/>
+- This table shows the total number of workers currently employed but eligible for retirement at Pewlett Hackard organized by department.<br/><br/>
+![Retiring Employees by Department](Data/Pictures/retiring_employees_by_dept.png)
+<br/>
+
+- This table shows the percentage of each department that is eligible for retirement in the coming year.<br/><br/>
+ ![Percent of Workforce Retiring By Department](Data/Pictures/dept_retire_percent.png)
+
+<br/>
 
 ## Summary
-### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+### - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+- There will be 90,398 roles to fill as employees retire as a part of the impending "Silver Tsunami."
+- Approximately 15% of the entire workforce will be entering retirement in the near future.
+- The distribution of employees is evenly spread across the different departments. About 15% for each...<br/><br/>
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of the analysis:
-
-The purpose of the new analysis is well defined. (3 pt)
-Results:
-
-There is a bulleted list with four major points from the two analysis deliverables. (6 pt)
-Summary:
-
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+- Currently there is a lack of qualified, retirement-ready employees in their respective departments to mentor the next generation of Pewlett Hackard employees. 
+- Only 1,550 employees are eligible for mentoring to help fill the 90,000+ vacant roles projected in the coming years. 
+- That equates to an average of ~58 employees to mentor for each retiring position. 
+- We believe this ratio to be too extreme for retiring employees to adequately train the next generation of workers and a organizational plan is needed to remedy the situation.
