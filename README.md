@@ -1,22 +1,21 @@
 # Pewlett_Hackard_Analysis
 ## Overview of Analysis
-### - The purpose of this project is to help Bobby in HR plan for future vacancies due to impending retirements.
+### The purpose of this project is to help Bobby in HR plan for future vacancies due to impending retirements.
 
 <br/>
 
 ## Results
-- There are currently 90,398 roles eligible for retirement in the coming year. The majority of which are either Senior Engineers (32.5%) or Senior Staff (31.3%).<br/><br/>![Impending Retirement](Data/Pictures/retiring_titles.png)
+#### - There are currently 90,398 roles eligible for retirement in the coming year. The majority of which are either Senior Engineers (32.5%) or Senior Staff (31.3%).
+<br/><br/>![Impending Retirement](Data/Pictures/retiring_titles.png)<br/>
 
-<br/>
+#### - This table shows the total number of workers currently employed at Pewlett Hackard organized by department. 
+<br/><br/>![Current Employees by Department](Data/Pictures/current_employees_by_dept.png)<br/>
 
-- This table shows the total number of workers currently employed at Pewlett Hackard organized by department. <br/><br/>![Current Employees by Department](Data/Pictures/current_employees_by_dept.png)
-<br/>
-- This table shows the total number of workers currently employed but eligible for retirement at Pewlett Hackard organized by department.<br/><br/>![Retiring Employees by Department](Data/Pictures/retiring_employees_by_dept.png)
-<br/>
+#### - This table shows the total number of workers currently employed but eligible for retirement at Pewlett Hackard organized by department.
+<br/><br/>![Retiring Employees by Department](Data/Pictures/retiring_employees_by_dept.png)<br/>
 
-- This table shows the percentage of each department that is eligible for retirement in the coming year.<br/><br/>![Percent of Workforce Retiring By Department](Data/Pictures/dept_retire_percent.png)
-
-<br/>
+#### - This table shows the percentage of each department that is eligible for retirement in the coming year.
+<br/><br/>![Percent of Workforce Retiring By Department](Data/Pictures/dept_retire_percent.png)<br/><br/>
 
 ## Summary
 ### - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
