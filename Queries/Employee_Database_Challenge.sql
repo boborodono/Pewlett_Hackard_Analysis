@@ -53,3 +53,32 @@ INNER JOIN titles as t
 WHERE (de.to_date = ('9999-01-01')) 
 	AND e.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
 ORDER BY e.emp_no;
+
+-- EXTRA QUERIES FOR SQL RESULTS
+-- Total number of employees in each department
+SELECT COUNT (e.emp_no),
+	d.dept_name,
+	de.dept_no, 
+	de.to_date
+INTO current_workers_by_dept
+FROM employees as e
+INNER JOIN dept_emp as de
+	ON de.emp_no = e.emp_no
+INNER JOIN departments as d
+	ON d.dept_no = de.dept_no
+WHERE (de.to_date = ('9999-01-01'))
+GROUP BY d.dept_name, de.dept_no, de.to_date
+ORDER BY d.dept_name;
+
+-- Total number of potential retirees from each department
+SELECT COUNT (ce.emp_no),
+	d.dept_name,
+	de.dept_no
+INTO retires_by_dept
+FROM current_emp as ce
+INNER JOIN dept_emp AS de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+GROUP BY d.dept_name, de.dept_no
+ORDER BY d.dept_name;
